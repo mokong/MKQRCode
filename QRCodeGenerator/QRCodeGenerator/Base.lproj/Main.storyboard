@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="QRCodeGenerator" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="m5r-Kt-boi">
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bz6-6Y-FiX">
+                                <color key="backgroundColor" red="0.95294117649999999" green="0.61176470589999998" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Generator"/>
+                                <connections>
+                                    <action selector="generatorButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OGW-rk-K81"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="TeO-OR-YRh">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="210" id="78V-su-217"/>
+                                    <constraint firstAttribute="height" constant="210" id="vye-5Y-fcS"/>
+                                </constraints>
+                            </imageView>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.0" maxValue="2" translatesAutoresizingMaskIntoConstraints="NO" id="xTa-E9-8p7">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="210" id="tum-Cc-VSm"/>
+                                </constraints>
+                                <color key="minimumTrackTintColor" red="0.82745098039999998" green="0.3294117647" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="thumbTintColor" red="0.75294117650000003" green="0.22352941179999999" blue="0.16862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="sliderValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="nPD-bT-8Mn"/>
+                                </connections>
+                            </slider>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="m5r-Kt-boi" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="32" id="AaB-YS-pZr"/>
+                            <constraint firstItem="m5r-Kt-boi" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="28" id="BCc-6f-JBh"/>
+                            <constraint firstItem="xTa-E9-8p7" firstAttribute="top" secondItem="TeO-OR-YRh" secondAttribute="bottom" constant="70" id="RdD-bb-qbR"/>
+                            <constraint firstItem="TeO-OR-YRh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="YID-uA-Ovm"/>
+                            <constraint firstItem="TeO-OR-YRh" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="gVl-bf-q4V"/>
+                            <constraint firstItem="Bz6-6Y-FiX" firstAttribute="top" secondItem="m5r-Kt-boi" secondAttribute="bottom" constant="16" id="lVn-dH-vQR"/>
+                            <constraint firstItem="m5r-Kt-boi" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ooq-as-qvY"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Bz6-6Y-FiX" secondAttribute="trailing" constant="32" id="tH2-cU-b7m"/>
+                            <constraint firstItem="xTa-E9-8p7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yum-OZ-We3"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="displayImageView" destination="TeO-OR-YRh" id="21j-pX-Eny"/>
+                        <outlet property="displaySlider" destination="xTa-E9-8p7" id="XLS-Cx-WIg"/>
+                        <outlet property="generatorButton" destination="Bz6-6Y-FiX" id="rfm-QT-F9N"/>
+                        <outlet property="inputTextField" destination="m5r-Kt-boi" id="jc9-S4-4M6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
