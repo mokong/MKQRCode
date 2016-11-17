@@ -12,6 +12,18 @@
 		60069C671DDBE7FE00E6CC77 /* ScanGeneratorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60069C661DDBE7FE00E6CC77 /* ScanGeneratorView.xib */; };
 		60069C691DDBEA0600E6CC77 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60069C681DDBEA0600E6CC77 /* Extension.swift */; };
 		60069C6D1DDBFA6600E6CC77 /* ScanGeneratorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60069C6C1DDBFA6600E6CC77 /* ScanGeneratorController.swift */; };
+		60069C701DDC0F6200E6CC77 /* MKScanCouponViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60069C6E1DDC0F6200E6CC77 /* MKScanCouponViewController.swift */; };
+		60069C711DDC0F6200E6CC77 /* MKScanCouponViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60069C6F1DDC0F6200E6CC77 /* MKScanCouponViewController.xib */; };
+		60069C751DDC0F8A00E6CC77 /* ScanQR1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 60069C731DDC0F8A00E6CC77 /* ScanQR1@2x.png */; };
+		60069C761DDC0F8A00E6CC77 /* ScanQR1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 60069C741DDC0F8A00E6CC77 /* ScanQR1@3x.png */; };
+		60069C791DDC0F9400E6CC77 /* ScanQR2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 60069C771DDC0F9400E6CC77 /* ScanQR2@2x.png */; };
+		60069C7A1DDC0F9400E6CC77 /* ScanQR2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 60069C781DDC0F9400E6CC77 /* ScanQR2@3x.png */; };
+		60069C7D1DDC0F9D00E6CC77 /* ScanQR3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 60069C7B1DDC0F9D00E6CC77 /* ScanQR3@2x.png */; };
+		60069C7E1DDC0F9D00E6CC77 /* ScanQR3@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 60069C7C1DDC0F9D00E6CC77 /* ScanQR3@3x.png */; };
+		60069C811DDC0FA400E6CC77 /* ScanQR4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 60069C7F1DDC0FA400E6CC77 /* ScanQR4@2x.png */; };
+		60069C821DDC0FA400E6CC77 /* ScanQR4@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 60069C801DDC0FA400E6CC77 /* ScanQR4@3x.png */; };
+		60069C851DDC101400E6CC77 /* ff_QRCodeScanLine@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 60069C831DDC101400E6CC77 /* ff_QRCodeScanLine@2x.png */; };
+		60069C861DDC101400E6CC77 /* ff_QRCodeScanLine@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 60069C841DDC101400E6CC77 /* ff_QRCodeScanLine@3x.png */; };
 		602D176E1DDB01CD001A78C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602D176D1DDB01CD001A78C6 /* AppDelegate.swift */; };
 		602D17701DDB01CD001A78C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602D176F1DDB01CD001A78C6 /* ViewController.swift */; };
 		602D17731DDB01CD001A78C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 602D17711DDB01CD001A78C6 /* Main.storyboard */; };
@@ -25,6 +37,18 @@
 		60069C661DDBE7FE00E6CC77 /* ScanGeneratorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScanGeneratorView.xib; sourceTree = "<group>"; };
 		60069C681DDBEA0600E6CC77 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		60069C6C1DDBFA6600E6CC77 /* ScanGeneratorController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanGeneratorController.swift; sourceTree = "<group>"; };
+		60069C6E1DDC0F6200E6CC77 /* MKScanCouponViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKScanCouponViewController.swift; sourceTree = "<group>"; };
+		60069C6F1DDC0F6200E6CC77 /* MKScanCouponViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MKScanCouponViewController.xib; sourceTree = "<group>"; };
+		60069C731DDC0F8A00E6CC77 /* ScanQR1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ScanQR1@2x.png"; sourceTree = "<group>"; };
+		60069C741DDC0F8A00E6CC77 /* ScanQR1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ScanQR1@3x.png"; sourceTree = "<group>"; };
+		60069C771DDC0F9400E6CC77 /* ScanQR2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ScanQR2@2x.png"; sourceTree = "<group>"; };
+		60069C781DDC0F9400E6CC77 /* ScanQR2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ScanQR2@3x.png"; sourceTree = "<group>"; };
+		60069C7B1DDC0F9D00E6CC77 /* ScanQR3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ScanQR3@2x.png"; sourceTree = "<group>"; };
+		60069C7C1DDC0F9D00E6CC77 /* ScanQR3@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ScanQR3@3x.png"; sourceTree = "<group>"; };
+		60069C7F1DDC0FA400E6CC77 /* ScanQR4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ScanQR4@2x.png"; sourceTree = "<group>"; };
+		60069C801DDC0FA400E6CC77 /* ScanQR4@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ScanQR4@3x.png"; sourceTree = "<group>"; };
+		60069C831DDC101400E6CC77 /* ff_QRCodeScanLine@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ff_QRCodeScanLine@2x.png"; sourceTree = "<group>"; };
+		60069C841DDC101400E6CC77 /* ff_QRCodeScanLine@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ff_QRCodeScanLine@3x.png"; sourceTree = "<group>"; };
 		602D176A1DDB01CD001A78C6 /* QRCodeGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRCodeGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		602D176D1DDB01CD001A78C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		602D176F1DDB01CD001A78C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -61,8 +85,28 @@
 		60069C6B1DDBFA4700E6CC77 /* 二维码扫描 */ = {
 			isa = PBXGroup;
 			children = (
+				60069C721DDC0F7E00E6CC77 /* image */,
+				60069C6E1DDC0F6200E6CC77 /* MKScanCouponViewController.swift */,
+				60069C6F1DDC0F6200E6CC77 /* MKScanCouponViewController.xib */,
 			);
 			name = "二维码扫描";
+			sourceTree = "<group>";
+		};
+		60069C721DDC0F7E00E6CC77 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				60069C831DDC101400E6CC77 /* ff_QRCodeScanLine@2x.png */,
+				60069C841DDC101400E6CC77 /* ff_QRCodeScanLine@3x.png */,
+				60069C7F1DDC0FA400E6CC77 /* ScanQR4@2x.png */,
+				60069C801DDC0FA400E6CC77 /* ScanQR4@3x.png */,
+				60069C7B1DDC0F9D00E6CC77 /* ScanQR3@2x.png */,
+				60069C7C1DDC0F9D00E6CC77 /* ScanQR3@3x.png */,
+				60069C771DDC0F9400E6CC77 /* ScanQR2@2x.png */,
+				60069C781DDC0F9400E6CC77 /* ScanQR2@3x.png */,
+				60069C731DDC0F8A00E6CC77 /* ScanQR1@2x.png */,
+				60069C741DDC0F8A00E6CC77 /* ScanQR1@3x.png */,
+			);
+			name = image;
 			sourceTree = "<group>";
 		};
 		602D17611DDB01CD001A78C6 = {
@@ -178,10 +222,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60069C761DDC0F8A00E6CC77 /* ScanQR1@3x.png in Resources */,
+				60069C7E1DDC0F9D00E6CC77 /* ScanQR3@3x.png in Resources */,
 				602D17781DDB01CD001A78C6 /* LaunchScreen.storyboard in Resources */,
+				60069C821DDC0FA400E6CC77 /* ScanQR4@3x.png in Resources */,
 				60069C671DDBE7FE00E6CC77 /* ScanGeneratorView.xib in Resources */,
+				60069C851DDC101400E6CC77 /* ff_QRCodeScanLine@2x.png in Resources */,
+				60069C751DDC0F8A00E6CC77 /* ScanQR1@2x.png in Resources */,
 				602D17751DDB01CD001A78C6 /* Assets.xcassets in Resources */,
+				60069C7A1DDC0F9400E6CC77 /* ScanQR2@3x.png in Resources */,
+				60069C791DDC0F9400E6CC77 /* ScanQR2@2x.png in Resources */,
+				60069C861DDC101400E6CC77 /* ff_QRCodeScanLine@3x.png in Resources */,
 				602D17731DDB01CD001A78C6 /* Main.storyboard in Resources */,
+				60069C7D1DDC0F9D00E6CC77 /* ScanQR3@2x.png in Resources */,
+				60069C711DDC0F6200E6CC77 /* MKScanCouponViewController.xib in Resources */,
+				60069C811DDC0FA400E6CC77 /* ScanQR4@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +295,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60069C701DDC0F6200E6CC77 /* MKScanCouponViewController.swift in Sources */,
 				602D17701DDB01CD001A78C6 /* ViewController.swift in Sources */,
 				60069C6D1DDBFA6600E6CC77 /* ScanGeneratorController.swift in Sources */,
 				60069C651DDBE70400E6CC77 /* ScanGeneratorView.swift in Sources */,

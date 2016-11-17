@@ -28,7 +28,8 @@ class ViewController: UIViewController {
     
     // 扫描二维码
     @IBAction func scanButtonTapped(sender: UIButton) {
-        
+        let scanVC = MKScanCouponViewController()
+        self.presentViewController(scanVC, animated: true, completion: nil)
     }
     
    

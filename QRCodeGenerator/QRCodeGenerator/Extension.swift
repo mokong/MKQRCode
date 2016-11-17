@@ -16,6 +16,15 @@ extension String {
     var length: Int {
         return self.characters.count
     }
+    
+    func trim() -> String {
+        return self.stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceAndNewlineCharacterSet())
+    }
+    
+    func substring(location: Int, length: Int) -> String {
+        return (self as NSString).substringWithRange(NSRange(location:location, length: length))
+    }
+    
 }
 
 
